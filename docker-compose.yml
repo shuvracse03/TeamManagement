@@ -1,0 +1,35 @@
+version: '3'
+services:
+  node-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3000'
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    networks:
+       - mynetwork
+      
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: test_db
+      POSTGRES_USER: test_user
+      POSTGRES_PASSWORD: test_password
+    ports:
+      - '5433:5432'
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    networks:
+       - mynetwork
+       
+ 
+volumes:
+  postgres-data:    
+  
+networks:
+  mynetwork:
+
