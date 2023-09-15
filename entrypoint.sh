@@ -6,7 +6,7 @@ sleep 5
 
 
 # Run the Sequelize database migration
-#npx sequelize-cli db:migrate
+npx sequelize-cli db:migrate
 
 # Start your Node.js application
 node index.js

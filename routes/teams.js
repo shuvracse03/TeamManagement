@@ -8,6 +8,17 @@ router.post('/create', authenticateUser, TeamController.createTeam);
 // Endpoint for inviting a team member by email (only accessible to admin)
 router.post('/invite', authenticateUser, TeamController.inviteTeamMember);
 
+// Endpoint for viewing active members of a team (only accessible to admin)
+router.get('/active-members/:teamId', authenticateUser, TeamController.getActiveMembers);
+
+// Endpoint for viewing pending members of a team (only accessible to admin)
+router.get('/pending-members/:teamId', authenticateUser, TeamController.getPendingMembers);
+
+router.post('/:teamId/accept-member/:userId', authenticateUser, TeamController.acceptTeamMemberRequest);
+
+// Route to reject a team member request
+router.post('/:teamId/reject-member/:userId', authenticateUser, TeamController.rejectTeamMemberRequest);
+
 
 module.exports = router;
 

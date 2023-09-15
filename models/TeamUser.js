@@ -1,6 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 
+
 const TeamUser = sequelize.define('TeamUser', {
   status: {
     type: DataTypes.STRING,
@@ -8,6 +9,7 @@ const TeamUser = sequelize.define('TeamUser', {
     defaultValue: '', // Default role is empty
   },
 });
+
 
 module.exports = TeamUser;
 

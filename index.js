@@ -11,9 +11,10 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000; // You can change this to any port you prefer
 
 const User = require('./models/User');
-const index = require('./models/index');
+
 const Team = require('./models/Team');
 const TeamUser = require('./models/TeamUser');
+const index = require('./models/index');
 
 const sequelize = require('./config/database');
 
