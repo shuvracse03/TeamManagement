@@ -2,7 +2,7 @@
 
 # Wait for the PostgreSQL database to be ready
 
-sleep 5
+#sleep 5
 
 
 # Run the Sequelize database migration

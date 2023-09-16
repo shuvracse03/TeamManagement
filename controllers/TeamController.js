@@ -1,6 +1,7 @@
 const Team = require('../models/Team');
 const User = require('../models/User');
 const TeamUser = require('../models/TeamUser');
+const logger = require('../logger'); // Import the Winston logger
 var nodemailer = require('nodemailer');
 
 // Create a new team
@@ -12,16 +13,21 @@ const createTeam = async (req, res) => {
     const requestingUser = await User.findByPk(req.userData.userId);
 
     if (!requestingUser || requestingUser.role !== 'admin') {
+      logger.error('Team creation failed: Only admin users can create teams');
       return res.status(403).json({ error: 'Only admin users can create teams' });
     }
 
     // Check if the team name already exists
     const existingTeam = await Team.findOne({ where: { name } });
     if (existingTeam) {
+      logger.error('Team creation failed: Team name already exists');
       return res.status(400).json({ error: 'Team name already exists' });
     }
 
     const newTeam = await Team.create({ name, category });
+    // Log the team creation event
+    logger.info(`Team created: ${name} by user: ${req.userData.username}`);
+
     res.status(201).json({ message: 'Team created successfully', team: newTeam });
   } catch (error) {
     console.error(error);
@@ -215,7 +221,7 @@ const acceptTeamMemberRequest = async (req, res) => {
 
     // Check if the accepting user is the same as the user in the request
     if (acceptingUser.id !== parseInt(userId)) {
-      return res.status(403).json({ error: 'Only the user can accept their own request' });
+      return res.status(403).json({ error: 'The user can accept their own request only' });
     }
     console.log(teamId)
     console.log(userId)

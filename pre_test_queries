@@ -1,0 +1,2 @@
+truncate "Teams"  RESTART identity cascade
+truncate "Users"  RESTART identity cascade

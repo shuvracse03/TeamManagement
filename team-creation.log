@@ -1,0 +1,137 @@
+{"level":"info","message":"Team created: team4 by user: admin","timestamp":"2023-09-16T13:28:43.557Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T17:15:37.591Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T17:20:23.367Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T17:20:23.449Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T17:20:23.520Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T17:21:10.559Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T17:21:10.665Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T17:21:10.742Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T17:22:23.800Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T17:22:23.881Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T17:22:23.949Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T17:26:33.175Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T17:26:33.281Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T17:26:33.353Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:09:26.317Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:09:26.406Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:09:26.481Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:13:49.235Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:13:49.322Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:13:49.397Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:14:25.551Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:14:25.665Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:14:25.737Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:16:03.073Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:16:03.176Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:16:03.249Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:16:47.072Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:16:47.190Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:16:47.263Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:26:40.972Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:26:41.049Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:26:41.124Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:28:33.991Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:28:34.065Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:28:34.140Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:29:24.862Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:29:24.937Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:29:25.012Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:40:17.996Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:40:18.072Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:40:18.148Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:44:13.415Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:44:13.488Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:44:13.560Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T18:46:07.314Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T18:46:07.395Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T18:46:07.469Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:09:52.044Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:09:52.122Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:09:52.198Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T19:10:52.016Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:10:52.090Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:10:52.165Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T19:22:23.849Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:22:23.929Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:22:24.007Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T19:34:16.000Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:34:16.077Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:34:16.154Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T19:43:31.976Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:43:32.047Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:43:32.115Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T19:46:34.763Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:46:34.839Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:46:34.917Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T19:50:46.701Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T19:50:46.779Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T19:50:46.853Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:26:18.049Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:26:18.123Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:26:18.201Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:27:10.958Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:27:11.033Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:27:11.110Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:34:22.813Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:34:22.891Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:34:22.968Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:46:24.274Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:46:24.350Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:46:24.425Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:47:26.341Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:47:26.413Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:47:26.485Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:48:35.401Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:48:35.478Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:48:35.553Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:50:01.055Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:50:01.131Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:50:01.206Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:52:00.667Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:52:00.742Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:52:00.816Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T20:59:08.982Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T20:59:09.058Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T20:59:09.132Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:02:20.023Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:02:20.096Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:02:20.168Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:03:14.376Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:03:14.449Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:03:14.517Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:09:16.350Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:09:16.452Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:09:16.523Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:21:26.213Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:21:26.285Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:21:26.358Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:25:23.867Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:25:23.945Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:25:24.018Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:27:47.382Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:27:47.457Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:27:47.529Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:38:10.697Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:38:10.773Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:38:10.846Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:42:15.735Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:42:15.809Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:42:15.878Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:44:36.128Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:44:36.207Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:44:36.277Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T21:45:37.559Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T21:45:37.632Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T21:45:37.705Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T22:08:07.606Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T22:08:07.679Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T22:08:07.751Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T22:10:23.180Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T22:10:23.255Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T22:10:23.329Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T22:12:23.020Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T22:12:23.093Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T22:12:23.162Z"}
+{"level":"info","message":"Team created: Test Team1 by user: test_admin","timestamp":"2023-09-16T22:14:08.613Z"}
+{"level":"error","message":"Team creation failed: Only admin users can create teams","timestamp":"2023-09-16T22:14:08.688Z"}
+{"level":"error","message":"Team creation failed: Team name already exists","timestamp":"2023-09-16T22:14:08.761Z"}
