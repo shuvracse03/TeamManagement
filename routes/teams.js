@@ -20,5 +20,10 @@ router.post('/:teamId/accept-member/:userId', authenticateUser, TeamController.a
 router.post('/:teamId/reject-member/:userId', authenticateUser, TeamController.rejectTeamMemberRequest);
 
 
+// Route to get active members for a user after acceptance
+router.get('/active-members-for-user/:teamId', authenticateUser, TeamController.getActiveMembersForUser);
+
+
+
 module.exports = router;
 

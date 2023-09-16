@@ -1,6 +1,7 @@
 const Team = require('../models/Team');
 const User = require('../models/User');
 const TeamUser = require('../models/TeamUser');
+var nodemailer = require('nodemailer');
 
 // Create a new team
 const createTeam = async (req, res) => {
@@ -68,12 +69,46 @@ const inviteTeamMember = async (req, res) => {
     // Create a pending membership
     await TeamUser.create({ TeamId: teamId, UserId: user.id, status: "PENDING" });
 
+    if (!isValidEmail(email)) {
+      return res.status(400).json({ error: 'Invalid email address' });
+    }
+
+    // Send an email invitation to the provided email address
+    await sendInvitationEmail(email, team.name); // Implement the sendInvitationEmail function
+
+
     res.status(201).json({ message: 'Team member invited successfully' });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal server error' });
   }
 };
+
+// Function to send an email invitation (implement with nodemailer)
+async function sendInvitationEmail(email, teamName) {
+  const transporter = nodemailer.createTransport({
+    service: 'gmail', // e.g., 'Gmail' or your SMTP settings
+    auth: {
+      user: 'shuvracse03@gmail.com',
+      pass: 'bndefknorlrutoxr',
+    },
+  });
+
+  const mailOptions = {
+    from: 'shuvracse03@gmail.com',
+    to: email,
+    subject: `Invitation to join ${teamName} team`,
+    text: `You have been invited to join the ${teamName} team. Click the link to accept the invitation: http://your-website.com/accept-invitation`,
+  };
+
+  await transporter.sendMail(mailOptions);
+}
+
+// Function to validate an email address (a basic example)
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
 
 // Get active members of a team
 const getActiveMembers = async (req, res) => {
@@ -257,8 +292,64 @@ const rejectTeamMemberRequest = async (req, res) => {
 };
 
 
+// Get active members for a user after acceptance
+const getActiveMembersForUser = async (req, res) => {
+  try {
+    const { teamId } = req.params;
+    const userId = req.userData.userId; // Get the user's ID from the decoded JWT token
+    /*
+    // Find the team
+    const team = await Team.findByPk(teamId);
+
+    if (!team) {
+      return res.status(404).json({ error: 'Team not found' });
+    }
+    */
+    // Check if the user is an active member of the team
+    const userIsActiveMember = await TeamUser.findOne({
+      where: {
+        TeamId: teamId,
+        UserId: userId,
+        status: 'ACTIVE', // Assuming 'member' represents active members
+      },
+    });
+
+    if (!userIsActiveMember) {
+      return res.status(403).json({ error: 'Only active members can access the active list' });
+    }
+
+    // Retrieve the list of active team members for the user
+    // Find the team along with its active members
+    const team = await Team.findByPk(teamId, {
+      include: [
+        {
+          model: User,
+          through: {
+            model: TeamUser,
+            where: { status: 'ACTIVE' }, // Filter by the 'member' role
+          },
+          attributes: ['id', 'username', 'email', 'role'], // Include user attributes
+        },
+      ],
+    });
+
+    if (!team) {
+      return res.status(404).json({ error: 'Team not found' });
+    }
+
+    const activeMembers = team.Users; // The active members are available in the 'Users' association
+
+    res.status(200).json({ activeMembers });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+};
+
+
+
 module.exports = {
   createTeam,inviteTeamMember, getActiveMembers,
-  getPendingMembers, acceptTeamMemberRequest, rejectTeamMemberRequest
+  getPendingMembers, acceptTeamMemberRequest, rejectTeamMemberRequest, getActiveMembersForUser,
 };
 
