@@ -24,6 +24,9 @@ If you want to delete data before running the tests, execute the database comman
 truncate "Teams"  RESTART identity cascade
 truncate "Users"  RESTART identity cascade
 ```
+
+![Test case](test_cases.png)
+
 ## API List
 
 - /api/users/register (create user)
